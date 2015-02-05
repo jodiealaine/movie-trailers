@@ -13,9 +13,9 @@ Write server-side code to store a list of your favorite movies, including box ar
 Program to create a movie trailer website
 
 ### Dependancies
-*** [Python](https://www.python.org/downloads/) 
+- [Python](https://www.python.org/downloads/) 
 
 ### Usage
-*** $ git clone https://github.com/jodiealaine/movie-trailers.git
-*** $ cd movie-trailers
-*** TBC...
+- $ git clone https://github.com/jodiealaine/movie-trailers.git
+- $ cd movie-trailers
+- $ python movies.py
