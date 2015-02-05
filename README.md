@@ -1,4 +1,4 @@
-# P1: Movie Trailers Website
+# P1: Movie Trailers Website [Demo](http://jodiealaine.github.io/movie-trailers/)
 
 ## Project Overview
 
@@ -10,7 +10,9 @@ Write server-side code to store a list of your favorite movies, including box ar
 
 ## Delivery
 
-Program to create a movie trailer website
+Program to create a movie trailer website.
+
+[Demo](http://jodiealaine.github.io/movie-trailers/)
 
 ### Dependancies
 - [Python](https://www.python.org/downloads/) 
