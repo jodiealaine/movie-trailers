@@ -1,4 +1,7 @@
+import fresh_tomatoes
 import media
+
+""" The creates instances of Movie """
 
 blue_jasmine = media.Movie("Blue Jasmine", 
 												 "The story of a rich Manhattan socialite (played by Cate Blanchett) falling into poverty and homelessness",
@@ -30,11 +33,16 @@ crouching_tiger_hidden_dragon = media.Movie("Crouching Tiger, Hidden Dragon",
 										  "http://upload.wikimedia.org/wikipedia/en/thumb/9/97/Crouching_tiger_hidden_dragon_poster.jpg/220px-Crouching_tiger_hidden_dragon_poster.jpg",
 										  "http://www.youtube.com/watch?v=iv_ed5VmoD8")
 
-movies = [blue_jasmine, hunger_games, kill_bill, pulp_fiction, amelie, crouching_tiger_hidden_dragon]
+""" This sets a list of the instances of Movie """
 
-for movie in movies:
-	movie_details = movie.title + " \n"
-	movie_details += movie.storyline + " \n"
-	movie_details += movie.poster_image_url + " \n"
-	movie_details += movie.trailer_youtube_url + " \n"
-	print("Movie:\n%s \n" % movie_details)
+movies = [blue_jasmine, 
+					hunger_games, 
+					kill_bill, 
+					pulp_fiction, 
+					amelie, 
+					crouching_tiger_hidden_dragon]
+
+""" This passes the list of instances of Movie to the movie page"""					
+
+fresh_tomatoes.open_movies_page(movies)
+
